@@ -1,0 +1,10 @@
+﻿@model Link
+
+@if (ViewData["Title"] == "Home")
+{
+    <a href="http://www.linkedin.com/@Model.URLPath">LinkedIn profile</a>
+}
+else if (ViewData["Title"] == "Projects")
+{
+    <a href="https://github.com/@Model.URLPath">Github profile</a>
+}
